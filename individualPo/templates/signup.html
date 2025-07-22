@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Signup{% endblock %}
+{% block content %}
+<div class="container">
+  <h2>Sign Up</h2>
+  <form method="POST">
+    <input type="text" name="fullname" class="form-control mb-2" placeholder="Full Name" required>
+    <input type="email" name="email" class="form-control mb-2" placeholder="Email" required>
+    <input type="text" name="phone" class="form-control mb-2" placeholder="Phone" required>
+    <input type="text" name="address" class="form-control mb-2" placeholder="Address" required>
+    <input type="text" name="username" class="form-control mb-2" placeholder="Username" required>
+    <input type="password" name="password" class="form-control mb-2" placeholder="Password" required>
+    <button class="btn btn-primary">Sign Up</button>
+  </form>
+</div>
+{% endblock %}

@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(to right, #000000, #434343);
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  background: #111;
+  padding-top: 40px;
+}
+.sidebar a {
+  color: #fff;
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+}
+.sidebar a:hover {
+  background: #333;
+}
+.content {
+  margin-left: 240px;
+  padding: 30px;
+}
+.card {
+  background: #1a1a1a;
+  color: white;
+  border: 1px solid #555;
+}
+input, select, textarea {
+  background: #333;
+  color: white;
+  border: 1px solid #777;
+}
+.btn-primary {
+  background-color: #c79a3f;
+  border: none;
+}
